@@ -15,9 +15,21 @@ h1 {
   font-family: "SF Distant Galaxy";
 }
 .yoda1{
-  flex-wrap: wrap;
-
-}
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  padding: 50px;
+  
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: yellow;
+    
+  }
+  
 
 
 /* computer */
@@ -43,6 +55,7 @@ img{
   border: 2px solid black;
   margin: 10px;
   background-color: yellow;
+ 
 }
 
 h1{
@@ -52,11 +65,19 @@ text-align: center;
 
 .yoda1{
 display: flex;
+position: relative;
+flex-direction: column;
+flex-wrap: wrap;
+overflow: hidden;
+height: 300px;
+align-content: center
+
+}
+
+
 justify-content: center;
 
 
-
-}
 
 .all{
   margin: 0 auto;
