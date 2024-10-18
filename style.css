@@ -70,12 +70,13 @@ flex-direction: column;
 flex-wrap: wrap;
 overflow: hidden;
 height: 300px;
-align-content: center
+align-content: center;
+
 
 }
 
 
-justify-content: center;
+
 
 
 
