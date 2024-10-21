@@ -5,6 +5,7 @@
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
 /* phone */
+
 body {
   background-color: yellow;
 }
@@ -17,15 +18,15 @@ h1 {
 .yoda1{
   display: flex;
   justify-content: center;
-  object-fit: contain;
+  flex-direction: column;
 }
-
+  
   .chewbacca3{
-display: flex;
+    display: flex;
     justify-content: center;
-    object-fit: contain;
+    flex-direction: column;
   }
-    
+   
    
   
   
@@ -53,7 +54,7 @@ display: flex;
 
 img{
  display: flex;
-  justify-content: center;
+  align-self: center;
 
 }
 
@@ -86,14 +87,11 @@ align-content: center;
 }
     
 .gorgu{
+  align-self:center;
   display: block;
-margin-right: auto;
-margin-left: auto;
-width:50%;
-
-
 
 }
+
 
 .chewbacca3{
   display: flex;
