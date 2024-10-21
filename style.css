@@ -18,7 +18,7 @@ h1 {
   display: flex;
   justify-content: center;
   object-fit: contain;
-  padding: 50px;
+ 
   
   }
   .links {
@@ -65,18 +65,10 @@ text-align: center;
 
 .yoda1{
 display: flex;
-position: relative;
-flex-direction: column;
-flex-wrap: wrap;
-overflow: hidden;
-height: 300px;
+flex-direction: row;
 align-content: center;
 
-
 }
-
-
-
 
 
 
@@ -85,3 +77,21 @@ align-content: center;
 
 }
     
+.gorgu{
+  display: block;
+margin-right: auto;
+margin-left: auto;
+width:50%;
+
+
+
+}
+
+.chewbacca{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:50%;
+    
+  
+}
