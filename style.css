@@ -88,11 +88,6 @@ align-content: center;
 
 }
     
-.gorgu{
-  align-self:center;
-  display: block;
-
-}
 
 
 .chewbacca3{
@@ -100,4 +95,16 @@ align-content: center;
   flex-direction: row;
   align-content: center;
   
+}
+
+
+.gorgu{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  
+}
+
+button:hover {
+  background-color: lightgrey; 
 }
