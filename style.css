@@ -10,15 +10,16 @@ body {
   background-color: yellow;
 }
 
-
+img{align-self: center;}
 
 h1 {
   font-family: "SF Distant Galaxy";
 }
+
 .yoda1{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction:column;
 }
   
   .chewbacca3{
@@ -50,13 +51,9 @@ h1 {
     h1 {
       color: black;
     }
-  }
+  
 
-img{
- display: flex;
-  align-self: center;
 
-}
 
 .links {
   display: flex;
@@ -83,13 +80,6 @@ align-content: center;
 
 
 
-.all{
-  margin: 0 auto;
-
-}
-    
-
-
 .chewbacca3{
   display: flex;
   flex-direction: row;
@@ -107,4 +97,6 @@ align-content: center;
 
 button:hover {
   background-color: lightgrey; 
+}
+
 }
